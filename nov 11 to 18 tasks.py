@@ -1,3 +1,4 @@
+"""practice""" 
 x= int(input("Enter a nuber:"))
 print(type(x))
 print("________________________") 
@@ -72,3 +73,5 @@ for m in range(10):
 print("_______________________________________")
 set=[11,12,13,14,15,16]
 print(set)
+
+dict={Name:vamsi}
