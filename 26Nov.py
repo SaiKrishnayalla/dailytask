@@ -2,17 +2,7 @@
 a = "hello guys how are you hope you are doing well"
 count = a.count('h')
 print(count)
-#2.Python Program to check if two Strings are Anagram.
-
-#3.Python program to check a String is palindrome or not. 
-string=input(("Enter a letter:"))  
-if(string==string[::-1]):  
-      print("The letter is a palindrome")  
-else:  
-      print("The letter is not a palindrome")
- 
-
-#4.Python program to replace the string space with a given character.
+#2.Python Program to check if two Strings are Anagram. 
 text = "hello        world"
 y=text.replace(" ","")
 print(y)
@@ -24,9 +14,6 @@ print(y)
 x= "hello today and tomorrow are holidays"
 y=x.upper()
 print(y)
-
-#7.Python program to convert lowercase vowel to uppercase in string
-
 
 
 #8.Python program to separate characters in a given string.
@@ -51,6 +38,7 @@ print(x+y)
 #12. Python program to remove repeated character from string.
 
 
+
 #13. Python program to check given character is vowel or consonant. 
 x="i"
 if (x=='a' or x=='e' or x=='i' or x=='o' or x=='u'):
@@ -64,13 +52,23 @@ if (x=='a' or x=='e' or x=='i' or x=='o' or x=='u'):
 else:
     print("consonant")
 
-#14. Python program to check given character is digit or not. 
+#14. Python program to check given character is digit or not.
+#  
 x= "1234567890"
 print(x.isdigit())
+
 #15. Python program to delete vowels in a given string. 
-
+string ="hello world"
+y=string.replace("a","").replace("e","").replace("i","").replace("o","").replace("u","")
+print(y)
 #16. Python program to count the Occurrence Of Vowels & Consonants in a String. 
-
+x = "learning python is easy"
+vowels = "aeiou"
+consonents = "bcdfghjklmnpqrstvwxyz"
+x1=sum(x.count(vowels)for vowels in vowels)
+x2=sum(x.count(consonents)for consonents in consonents)
+print()
+print(x1)
 #17. Python program to print the highest frequency character in a String. 
 
 #18. Python program to Replace First Occurrence Of Vowel With ‘-‘ in String. 
