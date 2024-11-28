@@ -49,11 +49,11 @@ for char in s:
         pass
 print(count)
  
+ 
+#22. Python program to print all non repeating character in string.
 s =" welcome to my world"
 nc = ""
 for char in s:
     if char not in nc:
         nc = nc + char
 print(nc)
- 
-#22. Python program to print all non repeating character in string.
