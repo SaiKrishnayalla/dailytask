@@ -44,8 +44,4 @@ b[0] = 10
 print(a)
 
 #cloning
-
-
 #nested list
-nested_list = [1,2,3[4,5,6]]
-print(nested_list[1])
