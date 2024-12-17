@@ -59,11 +59,7 @@ print(set_1.intersection(set_2))
 
 #Update set1 by adding items from set2, except common items?
 #Remove items from set1 that are not common to both set1 and set2?
-set_1 = {10,11,12,13,14,1,51,16,17}
-set_2 = {10,11,12,13,14,51,16,17}
-set_3 = set_1.intersection(set_2)
-set_1 = set_3
-print(set_3)
+
 
                                       
 #Write a python program to  add a key to a dictionary ?
