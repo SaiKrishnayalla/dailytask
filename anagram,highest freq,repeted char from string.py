@@ -56,4 +56,4 @@ nc = ""
 for char in s:
     if char not in nc:
         nc = nc + char
-print(nc)
+print(nc)  
